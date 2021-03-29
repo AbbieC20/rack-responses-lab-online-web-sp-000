@@ -1,3 +1,5 @@
+require 'rack'
+
 class Application
 
   def daily_greeting(env)
