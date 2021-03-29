@@ -1,6 +1,6 @@
 class Application
 
-  def daily_greeting
+  def daily_greeting(env)
 
 end
 
