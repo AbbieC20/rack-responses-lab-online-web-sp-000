@@ -1,7 +1,7 @@
 class Application
 
   def daily_greeting(env)
-    if
+    if Time.now.to_i
       resp.write "Good morning!"
     else
       resp.write "Good Afternoon!"
