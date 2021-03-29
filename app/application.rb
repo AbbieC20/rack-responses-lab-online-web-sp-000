@@ -1,6 +1,11 @@
 class Application
 
   def daily_greeting(env)
+    if
+      resp.write "Good morning!"
+    else
+      resp.write "Good Afternoon!"
+  end
 
 end
 
