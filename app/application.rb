@@ -1,4 +1,8 @@
+class Application
 
+  def daily_greeting
+
+end
 
 
 
