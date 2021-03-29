@@ -2,7 +2,7 @@ require 'rack'
 
 class Application
 
-  def daily_greeting(env)
+  def call(env)
     resp = Rack::Response.new
 
     if Time.now.hour < 12
